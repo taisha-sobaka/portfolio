@@ -1,7 +1,7 @@
 // Simulated folder structure (replace with dynamic logic if possible)
 const albums = [
   { name: "travel", photos: ["eagle.png"] },
-  { name: "work", photos: ["w.jpg"},
+  { name: "work", photos: ["w.jpg"]},
 ];
 
 // Function to generate the albums grid
