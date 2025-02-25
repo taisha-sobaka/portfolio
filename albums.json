@@ -1,0 +1,10 @@
+[
+  {
+    "name": "work",
+    "photos": ["w.jpg"]
+  },
+  {
+    "name": "travel",
+    "photos": ["eagle.png"]
+  }
+]
