@@ -121,8 +121,8 @@ h1, h2, h3, h4, h5, h6 {
 .gallery-grid li {
   position: relative;
   overflow: hidden;
-  background-color: #fff;
-  border-radius: 15%;
+  background-color: #ffffff00;
+  border-radius: 10%;
   box-shadow:
     0.3px 0.5px 0.7px hsl(0deg 0% 0% / 0.36),
     0.8px 1.6px 2px -0.8px hsl(0deg 0% 0% / 0.36),

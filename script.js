@@ -3,7 +3,7 @@
 async function loadConfig() {
     return {
         "work": ["1.avif","2.avif","3.avif","5.avif","12.avif"],
-        "nature": ["4.avif","8.avif","10.avif","13.avif"],
+        "animals": ["4.avif","8.avif","10.avif","13.avif"],
         "people": ["6.avif","9.avif","11.avif","14.avif","15.avif","16.avif","17.avif"]
       }
   }
