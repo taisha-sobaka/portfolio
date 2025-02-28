@@ -3,21 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Photo Albums</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Photo Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>My Photo Albums</h1>
+  <!-- Fixed Header -->
+  <header class="fixed-header">
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+      </ul>
+    </nav>
   </header>
-  <main>
-    <div id="albums-grid" class="albums-grid">
-      <!-- Albums will be dynamically generated here -->
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="photos/me.avif" alt="Profile Picture">
+      <p>
+        Hello! I'm a passionate photographer who loves capturing moments in life. 
+        My work spans across various categories like nature, people, and professional projects.
+      </p>
     </div>
-  </main>
-  <footer>
-    <p>&copy; 2023 My Photo Albums</p>
-  </footer>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="section gallery">
+    <h2>Photo Gallery</h2>
+    <div class="filters" id="filters">
+      <!-- Filters will be dynamically loaded here -->
+    </div>
+    <ul class="gallery-grid" id="gallery-grid">
+      <!-- Images will be dynamically loaded here -->
+    </ul>
+  </section>
+
+  <!-- Fullscreen Modal -->
+  <div id="fullscreen-modal" class="fullscreen-modal hidden">
+    <span class="close-btn">&times;</span>
+    <img src="" alt="Fullscreen Image" class="fullscreen-img">
+  </div>
+
+  <!-- Contacts Section -->
+  <section id="contacts" class="section contacts">
+    <h2>Contacts</h2>
+    <p>
+      Feel free to reach out to me via email: <a href="mailto:example@example.com">example@example.com</a>
+    </p>
+  </section>
+
   <script src="script.js"></script>
 </body>
 </html>
